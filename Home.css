@@ -1,0 +1,305 @@
+body {
+    margin: 0%;
+    background-color: hwb(0 76% 6%);
+}
+
+a{
+    text-decoration: none;
+}
+
+header {                                /*DOUBT: Want to apply position fixed, getting problem*/
+    background-color: rgb(233, 46, 46);
+    height: 80px;
+    width:100%;
+    
+}
+
+header h1 {
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    float: left;
+    text-align: center;
+    font-size: 45px;
+    margin-left: 43%;
+    margin-top: 1%;
+
+}
+
+.social {
+    float: right;
+    margin-top: 1.5%;
+    height: 30px;
+    width: 15%;
+    margin-right: 10px;
+    /*border:2px solid white;*/
+}
+
+.buttonslog {
+    color: white;
+    font-size: 20px;
+   background-color:#008CBA;
+   border-radius:10px;
+   text-align:center;
+    float: left;
+    width: 40%
+}
+
+.buttonssign {
+    color: white;
+    font-size: 20px;
+   background-color:#eeb013;
+   border-radius:10px;
+   text-align:center;
+    float: left;
+    width: 40%;
+    margin-left:2%;
+}
+
+.search {
+    height: 550px;
+    background-image: url("images/Dining.jpg");
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    background-size: 100%
+        /*width*/
+        550px;
+
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 45%;
+    margin-top: 2%;
+    position: absolute;
+    font-size: 90px;
+    animation: revolve 10s infinite;
+    
+}
+
+@keyframes revolve {
+    0%{
+        margin-left: 2%;
+        transform: rotate(30deg);
+    }
+    25%{
+        margin-left: 20%;
+        transform: rotate(90deg);
+    }
+    50%{
+        margin-left: 40%;
+        transform: rotate(180deg);
+    }
+    75%{
+        margin-left: 80%;
+        transform: rotate(270deg);
+    }
+    100%{
+        margin-left: 40%;
+        transform: rotate(360deg);
+    }
+}
+
+.logo span {
+    margin-left: 30%;
+    margin-top: 15%;
+    position: absolute;
+}
+
+.Sent {
+    margin-left: 460px;
+    margin-top: 230px;
+    color: white;
+    font-size: 75px;
+    position: absolute
+}
+
+#dropdown {
+    /*border: 3px solid white;*/
+    height: 50px;
+    width: 50%;
+    margin-left: 500px;
+    margin-top: 364px;
+    position: absolute;
+
+}
+
+.selectdrop {
+    height: 50px;
+    width: 49%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.roundhead{
+        font-family:'Times New Roman', Times, serif;
+        color: rgb(152, 91, 47);
+        font-size: 25px;
+        margin-left:4%;
+
+}
+
+.roundtiles{
+    height:500px;
+    /*border:2px solid black;*/
+}
+
+
+
+.desc{
+    font-size:23px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left:25%;
+    font-weight:bold;
+    margin-bottom:2%;
+}
+
+
+.round{
+    height:150px;
+    width:150px;
+    border-radius:50%;
+    margin-left:2%;
+    border:5px solid rgb(0, 0, 0);
+    margin-top:0.5%;
+    
+}
+
+.roundborder{
+    border:none;
+}
+
+.roundwrap{
+    float:left;
+    margin-left:2%;
+}
+
+.roundwrap:hover{
+    transform:scale(1.1)
+}
+
+
+
+.quicksearch {
+    /*height: 650px;*/
+    display:inline-block;
+    /*border: 2px double black;*/
+    width: 85%;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+ 
+}
+
+.heading {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(152, 91, 47);
+    font-size: 30px;
+    margin-left:2%;
+    display:block;                                /*used to bring in next line*/
+}
+
+.subheading {
+    color: rgb(122, 117, 117);
+    font-size: 25px;
+    margin-left: 2%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.tiles{
+    /*border:2px solid black;*/
+    margin-left:2%;
+    margin-top: 1%;
+    height:180px;
+    width:350px;
+    float:left;
+    box-shadow:10px 20px 10px gray;
+}
+
+.tiles:hover{
+    transform:scale(1.1);
+}
+
+.tileimage{
+    width:52%;
+    float: left;
+}
+
+.tileimage >img{
+    width:100%;
+    height:180px;
+}
+
+.tilelink{
+    width:45%;
+    float: left;
+    margin-left:3%;
+    margin-top:10%;
+    font-size: 20px;
+}
+
+.tilelink a{
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 2px;
+    color:rgb(131, 78, 81) !important
+}
+
+.tilelink >p{
+    color:rgb(105, 100, 100);
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 22px;
+}
+
+
+
+footer {
+    height: 125px;
+    width: 100%;
+    background-color: rgb(233, 46, 46);
+
+}
+
+.footText {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 46%;
+    margin-top: 10px;
+    font-size: 30px;
+    display: inline-block;
+    position: absolute
+}
+
+.footlist {
+    color: white;
+    border-right: 2px solid white;
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin-top: 40px;
+
+
+}
+
+.listhead {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.noborder {
+    border: none
+}
+
+ul {
+    list-style-type: none;
+}
+
+.socialnetwork {
+    /*Logo not coming beside Zomato*/
+    height: 50px;
+    float: right;
+    margin-top: -34px;
+}
